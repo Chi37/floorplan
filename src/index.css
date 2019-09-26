@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#floor-plan {
+  display: flex;
+  flex-direction: column;
+}
+.bed {
+  background-color: teal;
+  color: white;
+  font-size: 9px;
+}
+
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+}
+
+#top > * {
+  flex: auto;
+}
+
+#b1-fb {
+  flex-shrink: 1;
+}
+#b1-fb-1{
+  flex-basis: 5rem;
+}
+#btm {
+  display: flex;
+  flex-direction: row;
+}
+
+#kitchen-app {
+  display: flex;
+  align-items: flex-start;
+}
+
+#lr {
+  background-color: beige;
+}
